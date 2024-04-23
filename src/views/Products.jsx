@@ -30,7 +30,7 @@ function Products() {
                         color={item.color}  
                         precio={item.precio}
                         onClick={() => {
-                            console.log(item.id); // Imprime el ID real del elemento
+                            console.log(item.id); 
                             navigate(`producto/${item.id}`);
                         }}
                     />
